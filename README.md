@@ -12,6 +12,12 @@
 
 Refactor the e-commerce platform from [Activity 26] so that it uses [Redux].
 
+![HomePage](client/public/images/HomePageScreenShot.png)
+
+![Login](client/public/images/LoginScreenShot.png)
+
+![SignUp](client/public/images/SignupScreenShot.png)
+
 ## User-Story
 
 ```md
