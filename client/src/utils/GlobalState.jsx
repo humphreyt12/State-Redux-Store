@@ -1,15 +1,21 @@
+import { createContext} from "react";
 import { Provider } from 'react-redux';
 
 // Import Redux store from the file we created in /utils
 import store from './store';
 
+// Create a context for the store
+const StoreContext = createContext();
 
 export default function StoreProvider(props) {
 
-  // Return the provider component provided by react-redux
-  return <Provider store={store} {...props} />;
-}
 
+  return <Provider store={store} {...props} />;
+};
+
+// const useStoreContext = () => {
+//   return useContext(StoreContext);
+// };
 
 
 
